@@ -19,7 +19,7 @@ body {
     align-items: center;
     list-style: none;
     position: relative;
-    background-color: var(--color2);
+    background-color: #173c62;
     padding: 12px 20px;
   
 }
@@ -102,7 +102,7 @@ body {
     }
 }
 
-body {
+html body {
     width: 95%;
     margin: auto;
 }
@@ -114,7 +114,7 @@ body {
 
 h1 {
     color: white;
-    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.55);
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.400);
     margin-left: -20px;
 }
 
@@ -132,14 +132,62 @@ h2 {
     margin-top: 25px;
     margin-left: 30px;
     margin-bottom: 3px;
+    color: #25517d;
+    text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.200);
+}
+
+span {
+    color: #000000;
 }
 
 h3 {
+    text-decoration: underline;
     margin-top: 25px;
     margin-left: 30px;
+    color: #25517d;
+    text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.200);
 }
 
-p, a {
+p {
     margin-left: 30px;
 }
 
+a {
+    margin-left: 30px;
+    font-weight: bold;
+    color: #000000;
+}
+
+button {
+    margin-left: 30px;
+    padding: 8.5px;
+    border-radius: 10px;
+    background-color: #173c62;
+    color: white;
+    font-size: 1em;
+}
+
+/*Media Queries*/
+
+@media screen and (min-width:768px) and (max-width:992px) 
+{
+    html, body {
+        width: 85%;
+        margin: auto;
+    }
+}
+
+@media screen and (min-width:992px) and (max-width:1200px) {
+    html, body {
+        width: 80%;
+        margin: auto;
+    }
+}
+
+@media screen and (min-width:1200px) 
+{
+    html, body {
+        width: 75%;
+        margin: auto;
+    }
+}

@@ -8,8 +8,8 @@
 */
 
 @media screen and (min-width:768px) and (max-width:992px) {
-    body {
-        width: 90%;
+    html body {
+        width: 85%;
         margin: auto;
     }
 
@@ -20,7 +20,8 @@
     }
     
     .linha {
-        background-color: #000000a9;
+        background-color: #b89258;
+        box-shadow: 3px 3px 4px #00000020;
         height: 4px;
     }
     
@@ -106,11 +107,15 @@
     .fotoColegas img {
         width: 110px;
     }
+
+    .carousel {
+        max-width: 700px;
+    }
 }
 
 @media screen and (min-width:992px) and (max-width:1200px) {
-    body {
-        width: 83%;
+    html body {
+        width: 80%;
         margin: auto;
     }
 
@@ -121,7 +126,8 @@
     }
     
     .linha {
-        background-color: #000000a9;
+        background-color: #b89258;
+        box-shadow: 3px 3px 4px #00000020;
         height: 4px;
     }
     
@@ -175,6 +181,7 @@
     }
     
     div.informações {
+        
         margin-top: 15px;
         text-align: justify;
         margin-left: -60px;
@@ -183,12 +190,11 @@
     .redes-sociais {
         width: 30px;
         margin-top: 28px;
-        margin-left: 10px;
+        margin-left: 20px;
     }
     
-    .linkedin {
-        margin-left: 6px;
-        margin-bottom: 1px;
+    #linkedin {
+        margin-right: -7px;
     }
     
     .card-2 {
@@ -210,11 +216,15 @@
     .fotoColegas img {
         width: 110px;
     }
+
+    .carousel {
+        max-width: 800px;
+    }
 }
 
 @media screen and (min-width:1200px) {
-    body {
-        width: 73%;
+    html body {
+        width: 70%;
         margin: auto;
     }
 
@@ -225,7 +235,8 @@
     }
     
     .linha {
-        background-color: #000000a9;
+        background-color: #b89258;
+        box-shadow: 3px 3px 4px #00000020;
         height: 4px;
     }
     
@@ -253,7 +264,8 @@
     .card-1 {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-
+       
+        margin: auto;
     }
     
     .repositorios {
@@ -265,37 +277,38 @@
     
     div.foto {
         margin: auto;
+        margin-right: 1px;
+        margin-left: 100px;
     }
     
     .perfil {
-        width: 280px;
+        width: 300px;
         border: solid 5px black;
-        margin-top: 40px;
-        margin-left: -75px;
+        margin-top: 30px;
+
     }
     
     h2.nomeCompleto {
         font-size: 180%;
-        margin-top: 35px;
+        margin-top: 25px;
+        margin-left: -7px;
     }
     
     div.informações {
         margin-top: 15px;
         text-align: justify;
-        margin-left: -80px;
-        margin-right: 160px;
+        margin-left: 10px;
+        margin-right: 120px;
     }
     
     .redes-sociais {
         width: 30px;
-        margin-top: 28px;
-        margin-left: 10px;
+        margin-top: 15px;
     }
     
-    .linkedin {
-        margin-left: 6.5px;
-        margin-bottom: 1px;
-
+    #linkedin {
+        margin-left: 2px;
+        margin-top: 10px;
     }
     
     .card-2 {
@@ -316,5 +329,9 @@
     
     .fotoColegas img {
         width: 110px;
+    }
+
+    .carousel {
+        max-width: 900px;
     }
 }
