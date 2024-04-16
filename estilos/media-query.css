@@ -1,0 +1,320 @@
+/* Typical Device Breakpoints
+---------------------------------
+    Pequenas telas: até 600px
+    Celular: de 600px até 768px
+    Tablet: 768px até 992
+    Desktop: 992 até 1200px
+    Grandes telas: acima de 1200px
+*/
+
+@media screen and (min-width:768px) and (max-width:992px) {
+    body {
+        width: 90%;
+        margin: auto;
+    }
+
+    p {
+        width: 470px;
+        margin: auto;
+        font-size: 1.1em;
+    }
+    
+    .linha {
+        background-color: #000000a9;
+        height: 4px;
+    }
+    
+    h1 {
+        color: white;
+    }
+    
+    h1 a {
+        text-decoration: none;
+        color: white;
+    }
+    
+    h1:hover {
+        text-decoration: underline;
+        cursor: pointer;
+    }
+    
+    h2 {
+        margin-top: 25px;
+        margin-left: 30px;
+        margin-bottom: 3px;
+    }
+    
+    .card-1 {
+        text-align: center;
+    }
+    
+    .repositorios {
+        margin-bottom: 30px;
+        border: solid 5px black;
+        border-radius: 5px;
+        width: 99%;
+    }
+    
+    div.foto {
+        width: 300px;
+        margin: auto;
+    }
+    
+    .perfil {
+        width: 250px;
+        border: solid 5px black;
+        margin-top: 40px;
+    }
+    
+    h2.nomeCompleto {
+        text-align: center;
+        font-size: 180%;
+    }
+    
+    div.informações {
+        margin-top: 15px;
+        text-align: center;
+    }
+    
+    .redes-sociais {
+        width: 30px;
+        margin-right: 10px; 
+        margin-top: 28px;
+    }
+    
+    .linkedin {
+        margin-right: 10px;
+        margin-bottom: 1px;
+    }
+    
+    .card-2 {
+        text-align: center;
+        margin-top: 40px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 10px;
+    }
+    
+    .colegas {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-column-gap: 0;
+        margin-top: 40px;
+        text-align: center;
+    }
+    
+    .fotoColegas img {
+        width: 110px;
+    }
+}
+
+@media screen and (min-width:992px) and (max-width:1200px) {
+    body {
+        width: 83%;
+        margin: auto;
+    }
+
+    p {
+        width: 453px;
+        margin: auto;
+        font-size: 1.1em;
+    }
+    
+    .linha {
+        background-color: #000000a9;
+        height: 4px;
+    }
+    
+    h1 {
+        color: white;
+        margin-left: 10px;
+    }
+    
+    h1 a {
+        text-decoration: none;
+        color: white;
+    }
+    
+    h1:hover {
+        text-decoration: underline;
+        cursor: pointer;
+    }
+    
+    h2 {
+        margin-top: 25px;
+        margin-left: 30px;
+        margin-bottom: 3px;
+    }
+    
+    .card-1 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+    
+    .repositorios {
+        margin-bottom: 30px;
+        border: solid 5px black;
+        border-radius: 5px;
+        width: 99%;
+    }
+    
+    div.foto {
+        margin: auto;
+    }
+    
+    .perfil {
+        width: 280px;
+        border: solid 5px black;
+        margin-top: 40px;
+        margin-left: -75px;
+    }
+    
+    h2.nomeCompleto {
+        font-size: 180%;
+    }
+    
+    div.informações {
+        margin-top: 15px;
+        text-align: justify;
+        margin-left: -60px;
+    }
+    
+    .redes-sociais {
+        width: 30px;
+        margin-top: 28px;
+        margin-left: 10px;
+    }
+    
+    .linkedin {
+        margin-left: 6px;
+        margin-bottom: 1px;
+    }
+    
+    .card-2 {
+        text-align: center;
+        margin-top: 40px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 10px;
+    }
+    
+    .colegas {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-column-gap: 0;
+        margin-top: 40px;
+        text-align: center;
+    }
+    
+    .fotoColegas img {
+        width: 110px;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    body {
+        width: 73%;
+        margin: auto;
+    }
+
+    p {
+        width: 453px;
+        margin: auto;
+        font-size: 1.1em;
+    }
+    
+    .linha {
+        background-color: #000000a9;
+        height: 4px;
+    }
+    
+    h1 {
+        color: white;
+        margin-left: 10px;
+    }
+    
+    h1 a {
+        text-decoration: none;
+        color: white;
+    }
+    
+    h1:hover {
+        text-decoration: underline;
+        cursor: pointer;
+    }
+    
+    h2 {
+        margin-top: 25px;
+        margin-left: 30px;
+        margin-bottom: 3px;
+    }
+    
+    .card-1 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+    
+    .repositorios {
+        margin-bottom: 30px;
+        border: solid 5px black;
+        border-radius: 5px;
+        width: 85%;
+    }
+    
+    div.foto {
+        margin: auto;
+    }
+    
+    .perfil {
+        width: 280px;
+        border: solid 5px black;
+        margin-top: 40px;
+        margin-left: -75px;
+    }
+    
+    h2.nomeCompleto {
+        font-size: 180%;
+        margin-top: 35px;
+    }
+    
+    div.informações {
+        margin-top: 15px;
+        text-align: justify;
+        margin-left: -80px;
+        margin-right: 160px;
+    }
+    
+    .redes-sociais {
+        width: 30px;
+        margin-top: 28px;
+        margin-left: 10px;
+    }
+    
+    .linkedin {
+        margin-left: 6.5px;
+        margin-bottom: 1px;
+
+    }
+    
+    .card-2 {
+        text-align: center;
+        margin-top: 40px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 10px;
+    }
+    
+    .colegas {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-column-gap: 0;
+        margin-top: 40px;
+        text-align: center;
+    }
+    
+    .fotoColegas img {
+        width: 110px;
+    }
+}
