@@ -184,6 +184,10 @@ div.informações {
     text-align: center;
 }
 
+p.biografia {
+    font-size: 1.2em;
+}
+
 .redes-sociais {
     width: 30px;
     margin-right: 10px; 
@@ -216,7 +220,14 @@ div.informações {
 #carouselExampleIndicators {
     margin: auto;
 }
-  
+
+footer {
+    background-color: #173c62;
+    color: white;
+    margin: auto;
+    text-align: center;
+    padding: 5px;
+}
   
   
   
