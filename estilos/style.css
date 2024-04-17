@@ -221,7 +221,7 @@ p.biografia {
     margin: auto;
 }
 
-footer {
+html body footer {
     background-color: #173c62;
     color: white;
     margin: auto;
