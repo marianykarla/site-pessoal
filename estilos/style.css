@@ -103,6 +103,14 @@ html, body {
     body {
         width: 100%;
     }
+
+    html body footer {
+        background-color: #173c62;
+        color: white;
+        margin: auto;
+        text-align: center;
+        padding: 5px;
+    }
 }
 
 html body {
