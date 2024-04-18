@@ -7,7 +7,7 @@
     Grandes telas: acima de 1200px
 */
 
-@media screen and (min-width:768px) and (max-width:992px) {
+@media screen and (min-width:768px) and (max-width:1080px) {
     html body {
         width: 85%;
         margin: auto;
@@ -113,7 +113,7 @@
     }
 }
 
-@media screen and (min-width:992px) and (max-width:1200px) {
+@media screen and (min-width:1080px) and (max-width:1090px) {
     html body {
         width: 80%;
         margin: auto;
@@ -170,31 +170,35 @@
     }
     
     .perfil {
-        width: 280px;
+
+        width: 300px;
         border: solid 5px black;
         margin-top: 40px;
         margin-left: -75px;
+
     }
     
     h2.nomeCompleto {
         font-size: 180%;
+        margin-top: 50px;
     }
     
     div.informações {
         
         margin-top: 15px;
         text-align: justify;
-        margin-left: -60px;
+        margin-left: -100px;
     }
     
     .redes-sociais {
         width: 30px;
-        margin-top: 28px;
-        margin-left: 20px;
+        margin-top: 2px;
+        margin-left: 37px;
     }
     
     #linkedin {
-        margin-right: -7px;
+        margin-right: -27px;
+        margin-bottom: 27px;
     }
     
     .card-2 {
@@ -222,9 +226,9 @@
     }
 }
 
-@media screen and (min-width:1200px) {
+@media screen and (min-width:1090px) {
     html body {
-        width: 70%;
+        width: 75%;
         margin: auto;
     }
 
@@ -264,7 +268,6 @@
     .card-1 {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-       
         margin: auto;
     }
     
@@ -278,37 +281,37 @@
     div.foto {
         margin: auto;
         margin-right: 1px;
-        margin-left: 100px;
     }
     
     .perfil {
-        width: 300px;
+        width: 290px;
         border: solid 5px black;
-        margin-top: 30px;
-
+        margin-top: 35px;
+        margin-bottom: 30px;
+        
     }
     
     h2.nomeCompleto {
         font-size: 180%;
-        margin-top: 25px;
+        margin-top: 17px;
         margin-left: -7px;
     }
     
     div.informações {
         margin-top: 15px;
         text-align: justify;
-        margin-left: 10px;
-        margin-right: 120px;
+        margin-left: 140px;
+        margin-right: 140px;
     }
     
     .redes-sociais {
         width: 30px;
-        margin-top: 15px;
+        margin-top: 10px;
     }
     
     #linkedin {
         margin-left: 2px;
-        margin-top: 15px;
+        margin-top: 10px;
     }
     
     .card-2 {
