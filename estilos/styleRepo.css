@@ -2,18 +2,18 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-  }
-  
+}
+
 body {
     font-family: sans-serif;
-   --color1: #ffffff;
-   --color2: #000000;
-  }
-  
+    --color1: #ffffff;
+    --color2: #000000;
+}
+
 .nav-bar {
     width: 100%;
-   height: 70px;
-    
+    height: 70px;
+
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -21,13 +21,19 @@ body {
     position: relative;
     background-color: #173c62;
     padding: 12px 20px;
-  
+
 }
-  
-  
-  
-.menu { display: flex;}
-.menu li {padding-left: 30px;}
+
+
+
+.menu {
+    display: flex;
+}
+
+.menu li {
+    padding-left: 30px;
+}
+
 .menu li a {
     display: inline-block;
     text-decoration: none;
@@ -37,8 +43,8 @@ body {
     position: relative;
     text-transform: uppercase;
 }
-  
-  
+
+
 .menu li a::after {
     content: "";
     position: absolute;
@@ -46,38 +52,41 @@ body {
     left: 0;
     width: 0;
     height: 1px;
-    background-color: var(--color1) ;
+    background-color: #25517d;
     transition: 0.15s ease-in-out;
-} 
-  
-.menu li a:hover:after {width: 100%;}
-  
-.open-menu , .close-menu{
+}
+
+.menu li a:hover:after {
+    width: 100%;
+}
+
+.open-menu,
+.close-menu {
     position: absolute;
     color: var(--color1);
     cursor: pointer;
     font-size: 1.5rem;
     display: none;
 }
-  
+
 .open-menu {
     top: 50%;
     right: 20px;
     transform: translateY(-50%);
 }
-  
+
 .close-menu {
     top: 20px;
     right: 20px;
-  
+
 }
-  
+
 #check {
     display: none;
-   
+
 }
-  
-@media(max-width: 600px){
+
+@media(max-width: 600px) {
     .menu {
         flex-direction: column;
         align-items: center;
@@ -91,11 +100,23 @@ body {
         background-color: var(--color2);
         transition: all 0.2s ease-in-out;
     }
-  
-    .menu li {margin-top: 40px;}
-    .menu li a {padding: 10px;}
-    .open-menu , .close-menu {display: block;}
-    #check:checked ~ .menu {right: 0;}
+
+    .menu li {
+        margin-top: 40px;
+    }
+
+    .menu li a {
+        padding: 10px;
+    }
+
+    .open-menu,
+    .close-menu {
+        display: block;
+    }
+
+    #check:checked~.menu {
+        right: 0;
+    }
 
     body {
         width: 100%;
@@ -169,24 +190,28 @@ button {
 
 /*Media Queries*/
 
-@media screen and (min-width:768px) and (max-width:992px) 
-{
-    html, body {
+@media screen and (min-width:768px) and (max-width:992px) {
+
+    html,
+    body {
         width: 85%;
         margin: auto;
     }
 }
 
 @media screen and (min-width:992px) and (max-width:1200px) {
-    html, body {
+
+    html,
+    body {
         width: 80%;
         margin: auto;
     }
 }
 
-@media screen and (min-width:1200px) 
-{
-    html, body {
+@media screen and (min-width:1200px) {
+
+    html,
+    body {
         width: 75%;
         margin: auto;
     }
