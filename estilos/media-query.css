@@ -155,7 +155,6 @@
     .card-1 {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-
     }
     
     .repositorios {
@@ -175,7 +174,6 @@
         border: solid 5px black;
         margin-top: 40px;
         margin-left: -75px;
-
     }
     
     h2.nomeCompleto {
@@ -184,7 +182,6 @@
     }
     
     div.informações {
-        
         margin-top: 15px;
         text-align: justify;
         margin-left: -100px;
